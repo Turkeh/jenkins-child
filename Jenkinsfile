@@ -1,5 +1,5 @@
 node("docker") {
-    docker.withRegistry('beanah/jenkins-hello-world-docker', 'beanah') {
+    docker.withRegistry('beanah/jenkins-hello-world-docker') {
     
         git url: "https://github.com/Turkeh/jenkins-hello-world.git", credentialsId: 'b6832ae9-e315-4952-8622-2b64bef2dd7d'
     
