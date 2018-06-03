@@ -1,1 +1,1 @@
-# jenkins-hello-world
+# jenkins-child
